@@ -1,8 +1,57 @@
-body{
-
+:root{
+    --cinza: #282a36;
+    --verde: #50fa7b;
+    --roxo: #bd93f9;
+    --rosa: #ff79c6;
+    --azul: #8be9fd;
+    --texto: #f8f8f2;
+    --vermelho:#E50914;
 }
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    color: var(--texto);
+    background-color: var(--cinza);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .logo{
+    margin-left: 12px;
+    color: var(--vermelho);
+    font-family: "Arial Black" , times;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+
+header nav a{
+    text-decoration: none;
+    color: var(--azul);
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: var(--texto) ;
+}
+
+.artigo-principal{
+    font-size: 16px;
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(/img/business-g5ba4ab0e1_640.jpg);
+    
+    height: 400px;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
