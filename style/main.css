@@ -45,9 +45,10 @@ header nav a:hover{
 
 .artigo-principal{
     font-size: 16px;
-    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(/img/business-g5ba4ab0e1_640.jpg);
+    background: linear-gradient(rgba(50,50,50,.50),rgba(50,50,50,.50)100%), url(../img/business-g5ba4ab0e1_640.jpg);
     
     height: 400px;
+    width: auto;
     background-size: cover;
     
     display: flex;
