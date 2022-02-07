@@ -31,6 +31,7 @@ header .container{
     flex-direction: row;
     align-items: center;
     justify-content:space-between;
+
 }
 
 header nav a{
@@ -45,14 +46,46 @@ header nav a:hover{
 
 .artigo-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(50,50,50,.50),rgba(50,50,50,.50)100%), url(../img/business-g5ba4ab0e1_640.jpg);
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(../img/jontuber.jpg);
     
     height: 400px;
-    width: auto;
+    max-height: 400px;
     background-size: cover;
     
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+}
+
+.artigo-principal .descricao{
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+
+.titulo{
+    margin-top: 15%;
+    color: var(--verde);
+    font-size: 130%;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: var(--azul);
+    
+    padding: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: .2s ease all;
+}
+
+.botao:hover{
+    background-color: var(--cinza);
+    color: var(--rosa);
+}
+
+.botao{
+    margin-right: 8px;
 }
