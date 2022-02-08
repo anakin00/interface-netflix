@@ -103,3 +103,13 @@ header nav a:hover{
     width: 100%;
     display: block;
 }
+
+.carrossel-filmes{
+    margin-top: 0%;
+}
+
+.novidades{
+    justify-content: center;
+    text-align: center;
+    color:var(--roxo)
+}
