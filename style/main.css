@@ -61,7 +61,7 @@ header nav a:hover{
 
 .artigo-principal .descricao{
     margin-top: 2%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .titulo{
@@ -111,7 +111,7 @@ header nav a:hover{
 }
 
 .novidades{
-    margin:1% 1% 1% 2%;
+    margin-left:2%;
     text-align: justify;
     color:var(--roxo)
 }
