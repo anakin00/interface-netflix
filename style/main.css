@@ -41,6 +41,7 @@ header nav a{
 }
 
 header nav a:hover{
+    text-decoration: none;
     color: var(--texto) ;
 }
 
@@ -71,6 +72,7 @@ header nav a:hover{
 }
 
 .botao{
+    text-decoration: none;
     background-color: rgba(0,0,0,.50);
     border: none;
     color: var(--azul);
@@ -109,7 +111,7 @@ header nav a:hover{
 }
 
 .novidades{
-    justify-content: center;
-    text-align: center;
+    margin:1% 1% 1% 2%;
+    text-align: justify;
     color:var(--roxo)
 }
